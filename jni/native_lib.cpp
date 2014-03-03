@@ -26,7 +26,7 @@ JNIEXPORT jint JNICALL Java_com_example_CoffeeCatchDemo_native_1lib_native_1func
     	debug("unreachable\n");
     } COFFEE_CATCH() {
     	const char*const message = coffeecatch_get_message();
-        debug("**FATAL ERROR WHILE PARSING TU: %s\n", message);
+        debug("** FATAL ERROR: %s\n", message);
 
         // throw exception
         coffeecatch_throw_exception(env);
