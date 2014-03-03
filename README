@@ -8,4 +8,8 @@ Usage:
 4. launch the app
 5. click "Test"
 6. make sure "crash catched" is shown
-7. wait for few seconds to let the app died 
+7. wait for few seconds to let the app die 
+
+Issue:
+
+https://github.com/xroche/coffeecatch/issues/2
